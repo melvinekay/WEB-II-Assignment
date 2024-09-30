@@ -1,0 +1,56 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="recipes.html"><i class="fas fa-utensils"></i> Recipes</a></li>
+                <li><a href="submit.html"><i class="fas fa-plus-circle"></i> Submit Recipe</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="contact.html"><i class="fas fa-plus-circle"></i> Contact Us</a></li>
+            </ul>
+        </nav>  
+    </header>
+    <main>
+        <section class="Our Mission">
+        <h2>Welcome to Recipe Sharing!</h2>
+        <p>
+            At Recipe Sharing, we believe that cooking is an art that brings people together. Our mission is to create a vibrant community where food enthusiasts can share their favorite recipes, exchange tips, and inspire each other to explore new culinary delights.
+        </p>
+        <p>
+            Whether you're a seasoned chef or just starting your culinary journey, our platform is designed for everyone. From easy weeknight dinners to elaborate holiday feasts, you’ll find a variety of recipes that cater to all tastes and occasions.
+        </p>
+        <p>
+            Our team is passionate about food and dedicated to making cooking enjoyable and accessible. We strive to provide high-quality content that not only features delicious recipes but also includes cooking techniques, ingredient guides, and kitchen tips to help you succeed in the kitchen.
+        </p>
+        <p>
+            Join us as we celebrate the joy of cooking and the power of sharing meals with family and friends. We encourage you to submit your own recipes and share your culinary creations with the world!
+        </p>
+        <h3>Connect With Us</h3>
+        <p>
+            We would love to hear from you! Whether you have questions, suggestions, or just want to share your thoughts, feel free to reach out through our contact form. Let's cook up something amazing together!
+        </p>
+    </section>
+       
+        <button id="back-to-top">Back to Top</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Recipe Sharing</p>
+    </footer>
+    <script src="script.js">
+        document.getElementById('back-to-top').onclick = function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+    </script>
+</body>
+</html>
