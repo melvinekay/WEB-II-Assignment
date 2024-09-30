@@ -4,7 +4,7 @@
 The Recipe Sharing Application is a user-friendly web interface designed for food enthusiasts to share and discover delicious recipes. The application allows users to view featured recipes, explore various dishes, submit their own recipes, learn more about the platform, and contact the team. 
 
 ## Screenshot
-![Screenshot of the Recipe Sharing Application](Screenshot 2024-09-30 222440.png)
+![Screenshot of the Recipe Sharing Application](./Output_Screenshot.png)
 
 ## Application Domain
 This application falls under the domain of **Food and Cooking**. It aims to create a community for food lovers, where they can share their culinary creations, exchange cooking tips, and inspire each other with new recipes. The platform is designed with a focus on user experience, making it easy for anyone to navigate and contribute.
