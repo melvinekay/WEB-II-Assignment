@@ -1,0 +1,45 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://img.freepik.com/premium-photo/food-cooking-background-stone-texture-with-sea-salt-pepper-garlic-parsley-light-grey-abstract-food-background-empty-space-text-can-be-used-food-posters-design-menu-top-view_253362-16400.jpg?w=2000') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Makes the background cover the whole page */
+    color: black;
+}
+
+/* styles.css */
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+}
+
+nav ul li {
+    display: inline-block; /* Display items in a row */
+    margin-right: 20px; /* Space between links */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: #0072fd; /* Change link color */
+    font-weight: bold; /* Optional: make the text bold */
+    font-size: 16px; /* Optional: adjust font size */
+}
+
+nav a i {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+header {
+    text-align: center; /* Center text */
+    padding: 20px 0; /* Add vertical padding */
+}
+
+header h1 {
+    font-size: 36px; /* Increase font size */
+    margin: 0; /* Remove default margin */
+    color: rgb(0, 153, 255); /* Adjust color if needed */
+}
+
+/* Other styles as before... */
+
